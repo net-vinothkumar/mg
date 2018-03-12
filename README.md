@@ -115,7 +115,7 @@ This can significantly reduce the number of iterations in the minimax algorithm.
 
 # Pending Tasks / Improvements:
 ------------------------------
-1. Support for multiple field size from 3 by 3 to 10 by 10.
+1. Support for multiple field size from (3 by 3) to (10 by 10).
 2. Test cases should be written.
 3. OO design should be improved.
 4. Package structure should be improved.
