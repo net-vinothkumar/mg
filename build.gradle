@@ -1,0 +1,30 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'de.mg'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+}
+
+apply plugin: 'java'
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'de.mg.tictactoe.TicTacToeApplication'
+	}
+}
